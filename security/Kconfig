@@ -194,5 +194,9 @@ config FORTIFY_SOURCE
 	  Detect overflows of buffers in common string and memory functions
 	  where the compiler can determine and validate the buffer sizes.
 
+config DEFAULT_SECURITY
+    string
+    default ""
+
 endmenu
 
